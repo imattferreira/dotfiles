@@ -16,6 +16,11 @@ These are my favorite apps and extensions that I use in my day to day. To view t
 - MongoDB Compass - MongoDB client and editor;
 - VSCode - my favorite code editor;
 
+### Terminal
+- OhMyZsh
+- Zinit
+- Spaceship
+
 ### VSCode themes
 - Aura Pro
 - Dracula Pro
@@ -43,7 +48,7 @@ These are my favorite apps and extensions that I use in my day to day. To view t
 - Turbo Console Log - create helpful logs in seconds;
 - VSCode styled components - syntax highlight for StyledComponents;
 
-## Fonts
+### Fonts
 - Fira Code
 - JetBrains Mono
 - Ubuntu

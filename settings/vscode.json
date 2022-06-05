@@ -1,0 +1,151 @@
+{
+  //! Workbench
+  "workbench.startupEditor": "none",
+  "workbench.activityBar.visible": true,
+  "workbench.editor.labelFormat": "short",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Dracula Pro",
+  //! Editor
+  "editor.hover.enabled": true,
+  "editor.tabSize": 2,
+  "editor.parameterHints.enabled": false,
+  "editor.linkedEditing": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.renderLineHighlight": "all",
+  "editor.suggestSelection": "first",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.fontSize": 13,
+  "editor.lineHeight": 20,
+  "editor.fontFamily": "'JetBrains Mono'",
+  // "editor.fontFamily": "'Fira Code'",
+  "editor.fontLigatures": "true",
+  "editor.find.autoFindInSelection": "never",
+  "editor.inlineSuggest.enabled": true,
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  //! VSCode stuff 
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "window.titleBarStyle": "native",
+  "window.menuBarVisibility": "toggle",
+  "breadcrumbs.enabled": true,
+  "explorer.compactFolders": false,
+  "extensions.ignoreRecommendations": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "terminal.integrated.defaultProfile.linux": "zsh (2)",
+  "terminal.integrated.showExitAlert": false,
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash"
+    },
+    "zsh": {
+      "path": "zsh"
+    },
+    "fish": {
+      "path": "fish"
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    },
+    "zsh (2)": {
+      "path": "/usr/bin/zsh"
+    }
+  },
+  //! Intellicense
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  //! Extensions
+  "gitlens.defaultDateFormat": null,
+  "gitlens.hovers.currentLine.over": "line",
+  "git.confirmSync": false,
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "domain": "Core",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe",
+    "providers": "include",
+    "subscribers": "messages",
+    "kafka": "scripts",
+    "mappers": "meta",
+    "_shared": "shared",
+    "eslint-config": "tools",
+    "kube": "kubernetes",
+    "websocket": "pipe",
+    "seeds": "Include",
+    "exceptions": "Error",
+    "main": "public",
+    "presentation": "connection",
+    "cryptography": "secure",
+    "protocols": "resource",
+    // "useCases": "controller",
+    "useCases": "components",
+    "subcomponents": "components",
+    "adapters": "connection",
+    "factories": "container",
+    "globals": "global",
+    "ui": "views"
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "ormconfig.example.json": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d",
+    "*.webpack.js": "webpack",
+    "*.routes.ts": "Routing",
+    "*.routes.js": "Routing",
+    "*.router.ts": "Routing",
+    "*.router.js": "Routing",
+    "*.route.ts": "Routing",
+    "*.route.js": "Routing",
+    "jest.unit.config.ts": "Jest",
+    "jest.integration.config.ts": "Jest",
+    "*.env.release": "tune",
+    "heroku.yml": "heroku",
+    "*.doc.ts": "document",
+    "*.doc.js": "document",
+  },
+  "colorize.languages": [
+    "css",
+    "scss",
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact",
+    "json",
+    "html",
+    "xml",
+    "svg"
+  ],
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.productIconTheme": "fluent-icons",
+  "cSpell.language": "en,pt-BR",
+}
